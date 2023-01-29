@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    background-image: url("imagenes/Copia\ de\ design1_image2\ tp2.jpeg");
+    background-position: center;  
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    background: size cover;
+    width: 100%;
+    height: 300px;
+    border-color: blue;
+    margin-top: 15px;  
+}  
+    
+
+h1{
+    font-family: serif, Georgia;
+    color: rgb(227, 236, 238);
+    font-size: 40px;
+    display: inline-block;
+    margin-top: -1%;  
+    text-shadow: 2px 2px 5px #2605cd;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 30px; 
+    padding: 0%;
+    border-style: ridge;
+    color: rgb(15, 15, 235);
+    text-shadow: 2px 2px 5px rgba(91, 71, 98, 0.728);
+   
+   /*  margin-block-end: 0.85em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; */
+    
+}
+
+
+nav{
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+    margin-left: 30%;
+    margin-top: -1%;
+
+    
+}
+    
+nav >a{
+    background-color: rgb(238, 240, 244);
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 15px;
+} 
+nav a:hover{
+    background-color: rgb(0, 187, 255);
+}
+    
+body{
+    background-color: rgb(249, 251, 252);
+    line-height: 2; 
+    
+}  
+main{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    border-style: double;
+    float: right;
+} 
+#section_texto{
+    font-family: 'Times New Roman', ;
+    border-style: double;
+    width: 100%;
+    height: 70%;
+    
+
+}
+#section_imagen{
+    border-style: double;
+    width: 100%;
+    height: 30%;
+}
+
+#section_imagen >img {
+    width: 450px;
+    height: 320px;
+    float: right;
+    margin-right: 50px;
+} 
+
+
+
+aside{
+    border-style: double;
+    width: 15%;
+    position: absolute;
+}
+
+aside >img{
+    top: 400px;
+    position: static;
+    display: inline;
+    height:200px;
+    width:200px;
+
+}
+
+p{
+display: block;
+margin-block-end: 1em;
+margin-block-start: -7px;
+ 
+
+}
+    
+ 
