@@ -73,7 +73,7 @@ main{
     display: flex;
     justify-content:left; 
     list-style-position: inside;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 }
 
@@ -123,7 +123,7 @@ p{
     text-align: justify;
 }
 
-.footer_text{
+/* .footer_text{
     margin-left: 2%;
     margin-top: 1%;
-}
+} */
